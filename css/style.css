@@ -181,24 +181,3 @@
         background-position: top left;  /* start from top-left */
     }
 }
-
-.social-footer {
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
-  }
-  .social-footer a {
-    font-size: 1.25rem;            /* icon size */
-    color: #222;
-    text-decoration: none;
-  }
-  .social-footer a:hover {
-    color: #ff3366;                /* hover color */
-    transform: translateY(-2px);
-  }
-  @media (max-width:480px){
-    .social-footer a { font-size: 1rem; }
-  }
-  
