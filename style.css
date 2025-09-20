@@ -1,0 +1,133 @@
+.header{
+    background-color:grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    width: 99vw;
+}
+.header < div{
+    display:flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.head1{
+    font-family:'Caveat', cursive;
+    margin-left:-3em;
+}
+
+.header a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.header a:hover {
+    color: white;
+    font-weight: bold;
+    font-family: 'Comfortaa', sans-serif;
+
+}
+
+.cont3-head,.cont4-head,.cont5-head,.cont6-head,.cont7-head{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    text-align:center;
+
+}
+.head1.1,.head2.2,.head3.3,.head4.4{
+    color:white;
+    font-size:2em;
+}
+
+.wom-1{
+    font-weight:bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.container-2, .container-3,.container-4,.container-5,.container-6,.container-7,.container-8,.container-9,.container-10,.container-11,.container-12 {
+    margin-top: 3em;
+    border:2px solid black;
+    height:25em;
+    
+}
+#carousel img{
+    width:300px;
+    height:300px;
+    display:block;
+   margin:0 auto;
+
+}
+.buttons{
+    display:flex;
+    flex-direction:row;
+    height:2em;
+    width:2em;
+}
+.new-arrivals{
+    display:flex;
+    flex-direction:row;
+}
+
+.new-arrivals img {
+    width:300px;
+    height:300px;
+}
+.container-3 {
+    background-image: url("home/super-sale.jpeg");
+    background-size: auto;      /* optional, makes it fill */
+    background-position: center; /* optional, centers the image */
+}
+
+.cont3-head{
+    margin-top:22%;
+    font-weight:bolder;
+    font-size:4em;
+    color:white;
+}
+
+.container-2{
+        height: 400px;
+        background-size: auto;
+        background-position: center;
+        animation: slideshow 16s infinite;
+      }
+      
+      @keyframes slideshow {
+        0%   { background-image: url("home/new-arrivals-1.jpeg"); }
+        25%  { background-image: url("home/new-arrivals-2.jpeg"); }
+        50%  { background-image: url("home/new-arrivals-3.jpeg"); }
+        75%  { background-image: url("home/new-arrivals-4.jpeg"); }
+        100% { background-image: url("home/new-arrivals-1.jpeg"); }
+      }
+      .cont2-head{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight:bold;
+        text-align:center;
+        
+        font-size:3em;
+        animation: fontchange 12s infinite;
+      }
+      /* Define your font cycle */
+@keyframes fontchange {
+    0%   { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    25%  { font-family: "Times New Roman", Times, serif; }
+    50%  { font-family: "Courier New", Courier, monospace; }
+    75%  { font-family: "Georgia", serif; }
+    100% { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  }
+    
+.container-7{
+    animation:kids 3s infinite;
+    background-size:center;
+}
+@keyframes kids {
+    0%   { background-image: url("kids/kids-1.jpeg"); }
+    25%  { background-image: url("kids/kids-2.jpeg"); }
+    50%  { background-image: url("kids/kids-3.jpeg"); }
+    75%  { background-image: url("kids/kids-4.jpeg"); }
+    100% { background-image: url("kids/kids-1.jpeg"); }
+  }
+
+#head11,#head22, #head33, #head44{
+    color:white;
+}
