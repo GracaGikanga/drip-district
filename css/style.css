@@ -6,7 +6,7 @@
     height: 15vh;
     width: 99vw;
 }
-.header < div{
+.header div{
     display:flex;
     flex-direction: row;
     text-decoration: none;
@@ -35,11 +35,6 @@
     text-align:center;
 
 }
-.head1.1,.head2.2,.head3.3,.head4.4{
-    color:white;
-    font-size:2em;
-}
-
 .wom-1{
     font-weight:bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -73,7 +68,7 @@
     height:300px;
 }
 .container-3 {
-    background-image: url("home/super-sale.jpeg");
+    background-image: url("../home/super-sale.jpeg");
     background-size: auto;      /* optional, makes it fill */
     background-position: center; /* optional, centers the image */
 }
@@ -93,11 +88,11 @@
       }
       
       @keyframes slideshow {
-        0%   { background-image: url("home/new-arrivals-1.jpeg"); }
-        25%  { background-image: url("home/new-arrivals-2.jpeg"); }
-        50%  { background-image: url("home/new-arrivals-3.jpeg"); }
-        75%  { background-image: url("home/new-arrivals-4.jpeg"); }
-        100% { background-image: url("home/new-arrivals-1.jpeg"); }
+        0%   { background-image: url("../home/new-arrivals-1.jpeg"); }
+        25%  { background-image: url("../home/new-arrivals-2.jpeg"); }
+        50%  { background-image: url("../home/new-arrivals-3.jpeg"); }
+        75%  { background-image: url("../home/new-arrivals-4.jpeg"); }
+        100% { background-image: url("../home/new-arrivals-1.jpeg"); }
       }
       .cont2-head{
         font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -117,15 +112,24 @@
   }
     
 .container-7{
-    animation:kids 3s infinite;
-    background-size:center;
+    height:400px;
+    background-size:auto;
+    background-position: center;
+    animation:kids 20s infinite;
+    animation-fill-mode:none;
+    
 }
 @keyframes kids {
-    0%   { background-image: url("kids/kids-1.jpeg"); }
-    25%  { background-image: url("kids/kids-2.jpeg"); }
-    50%  { background-image: url("kids/kids-3.jpeg"); }
-    75%  { background-image: url("kids/kids-4.jpeg"); }
-    100% { background-image: url("kids/kids-1.jpeg"); }
+    0%   { background-image: url("../kids/kids-1.jpeg"); }
+    10%  { background-image: url("../kids/kids-2.jpeg"); }
+    20%  { background-image: url("../kids/kids-3.jpeg"); }
+    30%  { background-image: url("../kids/kids-4.jpeg"); }
+    40%  { background-image: url("../kids/kids-5.jpeg"); }
+    50%  { background-image: url("../kids/kids-6.jpeg"); }
+    60%  { background-image: url("../kids/kids-7.jpeg"); }
+    70%  { background-image: url("../kids/kids-3.jpeg"); }
+    80%  { background-image: url("../kids/kids-4.jpeg"); }
+    100% { background-image: url("../kids/kids-1.jpeg"); }
   }
 
 #head11,#head22, #head33, #head44{
