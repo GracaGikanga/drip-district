@@ -136,3 +136,12 @@
 #head11,#head22, #head33, #head44{
     color:white;
 }
+
+@media (max-width: 480px) {
+    .container-3 {
+        background-image: url("../home/supper-sale.jpeg");
+        background-size: contain;       /* makes the whole image visible, no cropping */
+        background-repeat: no-repeat;   /* prevent repeating */
+        background-position: top left;  /* start from top-left */
+    }
+}    
