@@ -144,6 +144,9 @@
         background-repeat: no-repeat;   /* prevent repeating */
         background-position: top left;  /* start from top-left */
     }
+    .head1 {
+        display:none;
+    }
 }    
 
 @media (min-width: 481px) and (max-width: 768px) {
