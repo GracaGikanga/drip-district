@@ -144,19 +144,7 @@
         background-repeat: no-repeat;   /* prevent repeating */
         background-position: top left;  /* start from top-left */
     }
-    .head1 {
-        background-color: grey;
-
-    }
-
-    .conty{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-around;
-    align-items: center;
-    height: 15vh;
-    width: 99vw;
-    }
+   
 }    
 
 @media (min-width: 481px) and (max-width: 768px) {
