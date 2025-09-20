@@ -48,6 +48,7 @@ This project is deployed on **Netlify**.
 - Connect to a backend for real orders
 - Improve responsiveness on mobile devices
 - Add user authentication (login/signup)
+- Add social media handles to connect with users more
 
 
 
