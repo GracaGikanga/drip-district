@@ -38,8 +38,17 @@ script3.js -contains js codes for kids section
 📂kids -contains images for kids' clothing
 📂men -contains images for men's clothing
 
+## 🌍 Deployment
+This project is deployed on **Netlify**.  
+🔗 Live site: [https://drip-district.netlify.app/](https://drip-district.netlify.app/)
+
+
 ## 🌱 Future Enhancements
 - Add a shopping cart
 - Connect to a backend for real orders
 - Improve responsiveness on mobile devices
 - Add user authentication (login/signup)
+
+
+
+Find the link to the site here:
