@@ -145,7 +145,17 @@
         background-position: top left;  /* start from top-left */
     }
     .head1 {
-        display:none;
+        background-color: grey;
+
+    }
+
+    .conty{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    width: 99vw;
     }
 }    
 
