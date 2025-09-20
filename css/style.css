@@ -68,9 +68,10 @@
     height:300px;
 }
 .container-3 {
-    background-image: url("../home/super-sale.jpeg");
+    background-image: url("../home/supper-sale.jpeg");
     background-size: auto;      /* optional, makes it fill */
-    background-position: center; /* optional, centers the image */
+    background-repeat: norepeat;    /* makes the image repeat */
+    background-position: top-left; /* optional, centers the image */
 }
 
 .cont3-head{
