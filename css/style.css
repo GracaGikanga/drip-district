@@ -137,7 +137,7 @@
     color:white;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
     .container-3 {
         background-image: url("../home/supper-sale.jpeg");
         background-size: contain;       /* makes the whole image visible, no cropping */
