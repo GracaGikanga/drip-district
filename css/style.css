@@ -160,6 +160,7 @@
       .header div, 
       .header a {
         margin: 5px 0;            /* prevent overlaps */
+        font-size:0.5 em;
       }
    
 }    
